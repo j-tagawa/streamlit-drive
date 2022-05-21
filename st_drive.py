@@ -18,7 +18,7 @@ def load_data(file):
     return df2
 
 def main():
-    st.title('日本のイケてるドライブスポット')
+    st.title('日本のドライブスポット')
     block_list = ['夕陽', '夜景', '海水']
     control_features = st.sidebar.selectbox('何を楽しみたい？',block_list)
     st.header(f'{control_features}100選')
